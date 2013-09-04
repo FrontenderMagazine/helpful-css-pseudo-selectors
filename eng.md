@@ -127,6 +127,7 @@ classes][5] and [user action pseudo-classes][6].
 * `:active-drop-target`, `:valid-drop-target` and `:invalid-drop-target`
 
 **Examples:**
+
     input[type="checkbox"]:checked { }
     input:disabled { }
 
@@ -147,6 +148,7 @@ behaviour.
     /* an E element whose foo attribute value begins exactly with the string "bar" */
 
 **Example:**
+
     a[href^="http://twitter.com"] { }
     a[href^="mailto:"]
 
@@ -156,6 +158,7 @@ behaviour.
     /* an E element whose foo attribute value ends exactly with the string bar */
 
 **Example:**
+
     a[href$='.pdf'] { }
     a[href$='.doc'] { }
     a[href$='.xls'] { }
@@ -167,6 +170,7 @@ behaviour.
     /* an E element whose foo attribute value contains the substring bar */
 
 **Example:**
+
     p[class*='post'] { }
 
 ## `:first-line`, `:first-letter`
